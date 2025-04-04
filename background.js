@@ -38,7 +38,7 @@ chrome.runtime.onInstalled.addListener(() => {
         id: "groupTitle",
         title: "SAJTOVI 🌐",
         contexts: ["selection"],
-        enabled: false, // Nemoguce je kliknuti / sluzi samo kao naslov
+        enabled: false, // sluzi samo kao naslov
     });
 
     sites.forEach((site) => {
